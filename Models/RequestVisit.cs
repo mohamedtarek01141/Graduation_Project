@@ -18,9 +18,9 @@ namespace Graduation_Project.Models
         public DateTime? PreferredTime { get; set; }
         public VisitRequestStatus Status { get; set; }  
 
-        [ForeignKey("Property")]
-        public int PropertyId { get; set; }
-        public Property? Property { get; set; }
+        [ForeignKey("Proprety")]
+        public int PropretyId { get; set; }
+        public Proprety? Proprety { get; set; }
         [ForeignKey("User")]
         public int UserId { get; set; }  
         public User? User { get; set; }  

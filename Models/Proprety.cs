@@ -27,6 +27,9 @@ namespace Graduation_Project.Models
         public int Userid {get; set; }
         public User? User { get; set; }
         public List<Image>? Images { get; set; }
+        public List<House>? Houses { get; set; }
+        public List<Villa>? Villas { get; set; }
+        public List <Apartment>? Apartments { get; set; }
 
 
 

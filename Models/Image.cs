@@ -9,7 +9,7 @@ namespace Graduation_Project.Models
         public bool IsPrimary { get; set; }
 
         [ForeignKey("Proprety")]
-        public int PropertyId { get; set; }
+        public int PropretyId { get; set; }
         public Proprety? Proprety { get; set; }
 
     }
